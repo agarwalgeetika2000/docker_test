@@ -1,0 +1,10 @@
+from nginx
+maintainer geetikaagarwal2000@gmail.com
+copy abc.html /usr/share/nginx/html/index.html
+copy docker.jpg /usr/share/nginx/html/docker.jpg
+expose 80
+
+#put the html file with name index.html and all other images other than this dockerfile in a 
+#folder and replace all these copy cmnds with a single cmnd
+#copy web /usr/share/nginx/html/ 
+#web is the name of that folder 
